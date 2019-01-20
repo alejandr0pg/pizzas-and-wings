@@ -1,0 +1,146 @@
+#cshero-header-top {
+ margin-top:0;
+ margin-right:0;
+ margin-bottom:25px;
+ margin-left:0;
+}
+#cshero-header-top {
+ padding-top:10px;
+ padding-right:0;
+ padding-bottom:10px;
+ padding-left:0;
+}
+#page-title {
+ margin-top:0;
+ margin-right:0;
+ margin-bottom:45px;
+ margin-left:0;
+}
+#page-title {
+ padding-top:0;
+ padding-right:0;
+ padding-bottom:0;
+ padding-left:0;
+}
+body {
+ background-color:transparent;
+}
+body {
+ margin-top:0;
+ margin-right:0;
+ margin-bottom:0;
+ margin-left:0;
+}
+body {
+ padding-top:0;
+ padding-right:0;
+ padding-bottom:0;
+ padding-left:0;
+}
+#main {
+ background-color:#ffffff;
+}
+#main {
+ margin-top:0;
+ margin-right:0;
+ margin-bottom:0;
+ margin-left:0;
+}
+#main {
+ padding-top:0;
+ padding-right:0;
+ padding-bottom:0;
+ padding-left:0;
+}
+.page-footer {
+ background-color:#fff;
+}
+.page-footer:after {
+ background-image:url('http://localhost:4200/assets/img/bg3.png');
+}
+.page-footer:before {
+ background-image:url('http://localhost:4200/assets/img/bg_footer.png');
+}
+.page-footer {
+ margin-top:100px;
+ margin-right:0;
+ margin-bottom:0;
+ margin-left:0;
+}
+.page-footer {
+ padding-top:25px;
+ padding-right:0;
+ padding-bottom:0;
+ padding-left:0;
+}
+#cshero-footer-top {
+ margin-top:0;
+ margin-right:0;
+ margin-bottom:0;
+ margin-left:0;
+}
+#cshero-footer-top {
+ padding-top:0;
+ padding-right:0;
+ padding-bottom:60px;
+ padding-left:0;
+}
+footer #cshero-footer-bottom {
+ background-color:#fff;
+}
+#cshero-footer-bottom {
+ margin-top:0;
+ margin-right:0;
+ margin-bottom:0;
+ margin-left:0;
+}
+#cshero-footer-bottom {
+ padding-top:14px;
+ padding-right:0;
+ padding-bottom:14px;
+ padding-left:0;
+}
+body {
+ font-family:Vollkorn;
+ font-weight:normal;
+ font-style:normal;
+ font-size:15px;
+}
+body h1 {
+ font-family:"Playfair Display";
+ font-weight:normal;
+ font-style:normal;
+ font-size:29px;
+}
+body h2 {
+ font-family:"Playfair Display";
+ font-weight:normal;
+ font-style:normal;
+ font-size:26px;
+}
+body h3 {
+ font-family:"Playfair Display";
+ font-weight:normal;
+ font-style:normal;
+ font-size:23px;
+}
+body h4 {
+ font-family:"Playfair Display";
+ font-weight:normal;
+ font-style:normal;
+ font-size:21px;
+}
+body h5 {
+ font-family:"Playfair Display";
+ font-weight:normal;
+ font-style:normal;
+ font-size:19px;
+}
+body h6 {
+ font-family:"Playfair Display";
+ font-weight:normal;
+ font-style:normal;
+ font-size:17px;
+}
+
+

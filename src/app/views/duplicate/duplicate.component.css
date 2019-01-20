@@ -1,0 +1,59 @@
+#duplicate {
+    width: 100%;
+}
+
+#duplicate .item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border: 1px solid transparent;
+    color: #b5b5b5;
+    transition: all .2s ease-in;
+}
+
+#duplicate .item.active {
+    border: 1px solid #db2e24;
+    color: #db2e24;
+}
+
+#duplicate .item:hover {
+    border: 1px solid #db2e24;
+    color: #db2e24;
+    transition: all .01s ease-in;
+}
+
+#duplicate .item p{
+    font-size: 58px;
+    margin-top: 5px;
+}
+
+#duplicate .item span {
+    display: block;
+    margin-top: 20px;  
+    font-weight: bold;          
+}
+
+#duplicate #controls {
+    position: absolute;
+    top: calc(60% - 20px );
+    width: 100%;
+}
+
+#duplicate #controls > div {
+    position: absolute;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+#duplicate #controls > .left {
+    left: 15px;
+}
+
+#duplicate #controls > .right {
+    right: 15px;
+}

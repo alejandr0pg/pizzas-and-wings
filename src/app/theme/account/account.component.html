@@ -1,0 +1,6 @@
+<span *ngIf="!guest">
+  Hola {{ user.data.user_login }}  | <a href="http://pizzaandwings.com.pa/logout/?_wpnonce=889126fb25" class="text-uppercase">Salir</a>
+</span>
+<span *ngIf="guest">
+	Bienvenido, <a href="http://pizzaandwings.com.pa/login" class="text-uppercase">Acceder</a> | <a href="http://pizzaandwings.com.pa/register" class="text-uppercase">Registrarse</a>
+</span>

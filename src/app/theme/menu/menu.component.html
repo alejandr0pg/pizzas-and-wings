@@ -1,0 +1,50 @@
+<nav id="slide-menu">
+	<ul>
+	    <li class="list-img" routerLinkActive="active">
+	        <a [routerLink]="['/sizes']">
+	            <span class="badge">1</span>
+	            <img src="http://localhost:4200/assets/img/26.png" alt="" />
+	        </a>
+	        <ul class="sub-menu">
+	            <li routerLinkActive="active">
+	                <a [routerLink]="['/sizes']">
+	                    <img src="http://localhost:4200/assets/img/1-29.png" alt="" />
+	                    Tamaño
+	                </a>
+	            </li>
+	            <li routerLinkActive="active">
+	                <a [routerLink]="['/type']">
+	                    <img src="http://localhost:4200/assets/img/1-27.png" alt="" />
+	                    Tipo de Pizza
+	                </a>
+	            </li>
+	            <li routerLinkActive="active">
+	                <a [routerLink]="['/duplicate']">
+	                    <img src="http://localhost:4200/assets/img/1-28.png" alt="" />
+	                    Duplicar o Crear nueva
+	                </a>
+	            </li>
+	        </ul>
+	    </li>
+	    <li class="list bg-azul" routerLinkActive="active">
+	        <a [routerLink]="['/escorts']">
+	            <span class="badge">2</span>
+	            <p>¡Elige tus acompañantes!</p>
+	        </a>
+	    </li>
+	    <li class="list bg-azul" routerLinkActive="active">
+	        <a [routerLink]="['/finish']">
+	            <span class="badge">3</span>
+	            <p>Finalizar orden</p>
+	        </a>
+	    </li>
+	</ul>
+</nav>
+
+<nav id="slide-nav-menu">
+	<span style="text-transform: uppercase;color: #fff;display: block;margin: auto 50px;font-size: 40px;text-align: center;padding-top: 21px;">
+		<img *ngIf="selected.index > 0" class="prev" src="http://localhost:4200/assets/img/flecha_1.png" style="cursor: pointer;" (click)="prevMenu()"> 
+			{{ selected.name }} 
+		<img *ngIf="selected.index < 4" src="http://localhost:4200/assets/img/flecha_1.png" style="cursor: pointer;float: right;" (click)="nextMenu()">
+	</span>
+</nav>
